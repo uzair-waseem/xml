@@ -1,0 +1,26 @@
+<!ELEMENT companies (A:company, B:company, C:company, D:company )>
+<!ELEMENT A:company (A:employeenum , A:employname , A:adress , A:salery )>
+<!ELEMENT B:company (B:employeenum , B:employname , B:adress , B:salery )>
+<!ELEMENT C:company (C:employeenum , C:employname , C:adress , C:salery )>
+<!ELEMENT D:company (D:employeenum , D:employname , D:adress , D:salery )>
+<!ELEMENT A:employeenum (#PCDATA)>
+<!ELEMENT A:employname (#PCDATA)>
+<!ELEMENT A:adress (#PCDATA)>
+<!ELEMENT A:salery (#PCDATA)>
+<!ELEMENT B:employeenum (#PCDATA)>
+<!ELEMENT B:employname (#PCDATA)>
+<!ELEMENT B:adress (#PCDATA)>
+<!ELEMENT B:salery (#PCDATA)>
+<!ELEMENT C:employeenum (#PCDATA)>
+<!ELEMENT C:employname (#PCDATA)>
+<!ELEMENT C:adress (#PCDATA)>
+<!ELEMENT C:salery (#PCDATA)>
+<!ELEMENT D:employeenum (#PCDATA)>
+<!ELEMENT D:employname (#PCDATA)>
+<!ELEMENT D:adress (#PCDATA)>
+<!ELEMENT D:salery (#PCDATA)>
+
+<!ATTLIST companies xmlns:A CDATA #REQUIRED>
+<!ATTLIST companies xmlns:B CDATA #REQUIRED>
+<!ATTLIST companies xmlns:C CDATA #REQUIRED>
+<!ATTLIST companies xmlns:D CDATA #REQUIRED>

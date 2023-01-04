@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Prolog -->
+
+<!DOCTYPE companies SYSTEM "index.dtd" [
+
+]>
+
+
+
+
+
+<companies xmlns:A= "https://www.gmail.com" xmlns:B= "https://www.yahoo.com" xmlns:C= "https://www.gmail.com" xmlns:D= "https://www.yahoo.com">
+    <A:company>
+        <A:employeenum>03113228995 </A:employeenum>
+        <A:employname>Uzair</A:employname>
+        <A:adress> orangi town 10 no </A:adress>
+        <A:salery>15000 </A:salery>
+    </A:company>
+
+
+
+
+    <B:company>
+        <B:employeenum>03113228995 </B:employeenum>
+        <B:employname>Huzaifa</B:employname>
+        <B:adress> orangi town 20 no </B:adress>
+        <B:salery>2000 </B:salery>
+    </B:company>
+
+
+
+
+    <C:company>
+        <C:employeenum>03113228995 </C:employeenum>
+        <C:employname>Rafay</C:employname>
+        <C:adress> orangi town 50 no </C:adress>
+        <C:salery>1000 </C:salery>
+    </C:company>
+
+
+    <D:company>
+        <D:employeenum>03113228995 </D:employeenum>
+        <D:employname>Uzair hashmi</D:employname>
+        <D:adress> gujrat </D:adress>
+        <D:salery>5000 </D:salery>
+    </D:company>
+</companies>
